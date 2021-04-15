@@ -16,7 +16,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 @RestController
-@RequestMapping("/order")
+//@RequestMapping("/order")
 @Slf4j
 public class OrderController {
 
@@ -30,7 +30,7 @@ public class OrderController {
     @Resource
     private DiscoveryClient discoveryClient;
 
-    @PostMapping(value = "/create")
+    @PostMapping(value = "/order/create")
     public CommonResult create(@RequestBody Order order){
         int i = orderService.create(order);
         if(i>0){
@@ -40,7 +40,7 @@ public class OrderController {
             return new CommonResult(444,"失败",null);
         }
     }
-    @GetMapping(value = "/find/{id}")
+    @GetMapping(value = "/order/find/{id}")
     public CommonResult<Order> find(@PathVariable(value = "id") Long id){
         Order order = orderService.find(id);
         if(order !=null){

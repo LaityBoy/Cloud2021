@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/order")
+//@RequestMapping("/order")
 public class OrderController {
 
     @Autowired
@@ -17,7 +17,7 @@ public class OrderController {
     @Value("${server.port}")
     private String serverPort;
 
-    @PostMapping(value = "/create")
+    @PostMapping(value = "/order/create")
     public CommonResult create(@RequestBody Order order){
         int i = orderService.create(order);
         if(i>0){
@@ -27,7 +27,7 @@ public class OrderController {
             return new CommonResult(444,"失败",null);
         }
     }
-    @GetMapping(value = "/find/{id}")
+    @GetMapping(value = "/order/find/{id}")
     public CommonResult<Order> find(@PathVariable(value = "id") Long id){
         Order order = orderService.find(id);
         if(order !=null){

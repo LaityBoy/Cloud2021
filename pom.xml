@@ -16,6 +16,7 @@
       <module>Payment8002</module>
       <module>Payment8004</module>
       <module>ConsumerZK80</module>
+      <module>ConsumerFegin80</module>
   </modules>
   <packaging>pom</packaging>
 
