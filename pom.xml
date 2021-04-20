@@ -19,6 +19,8 @@
       <module>ConsumerFegin80</module>
       <module>Payment-Hystrix8001</module>
       <module>Consumer-Fegin-Hystrix80</module>
+      <module>Cloud-Hystrix-DashBoard</module>
+      <module>Cloud-Gateway-Gateway9527</module>
   </modules>
   <packaging>pom</packaging>
 

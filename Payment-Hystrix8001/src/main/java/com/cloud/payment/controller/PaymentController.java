@@ -28,4 +28,9 @@ public class PaymentController {
 
         return paymentService.instance_timeOut(id);
     }
+
+    @GetMapping("/payment/instance_id/{id}")
+    public String instance_id(@PathVariable(value = "id") Integer id){
+        return paymentService.instance_id(id);
+    }
 }
