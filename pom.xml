@@ -21,6 +21,9 @@
       <module>Consumer-Fegin-Hystrix80</module>
       <module>Cloud-Hystrix-DashBoard</module>
       <module>Cloud-Gateway-Gateway9527</module>
+    <module>Cloud-config-center</module>
+      <module>Cloud-config-client3355</module>
+      <module>Cloud-config-client3366</module>
   </modules>
   <packaging>pom</packaging>
 
