@@ -19,7 +19,7 @@
       <module>ConsumerFegin80</module>
       <module>Payment-Hystrix8001</module>
       <module>Consumer-Fegin-Hystrix80</module>
-      <module>Cloud-Hystrix-DashBoard</module>
+      <module>Cloud-Hystrix-DashBoard9001</module>
       <module>Cloud-Gateway-Gateway9527</module>
     <module>Cloud-config-center</module>
       <module>Cloud-config-client3355</module>
