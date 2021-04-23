@@ -6,7 +6,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.174.131:8848 #配置nacos地址
+        server-addr: 192.168.174.131:1111 #配置nginx地址,之后由nginx转发
 management:
   endpoints:
     web:
