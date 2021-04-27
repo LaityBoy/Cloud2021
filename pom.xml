@@ -32,6 +32,9 @@
     <module>cloud-alibaba-nacos-consumer83</module>
     <module>cloud-alibaba-nacos-config3377</module>
       <module>cloud-alibaba-sentinel8401</module>
+      <module>cloud-alibaba-provider-payment9003</module>
+      <module>cloud-alibaba-provider-payment9004</module>
+      <module>cloud-alibaba-consumer-order84</module>
   </modules>
   <packaging>pom</packaging>
 
