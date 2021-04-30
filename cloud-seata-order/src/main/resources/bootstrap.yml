@@ -1,0 +1,14 @@
+server:
+  port: 2001
+spring:
+  application:
+    name: seata-order-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.174.131:1111
+      config:
+        #自定义配置
+        server-addr: 192.168.174.131:1111
+        file-extension: yaml
+        namespace: 644b790b-2d45-4a1a-951d-1070cfd6a859
